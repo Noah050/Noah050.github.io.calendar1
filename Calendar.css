@@ -1,0 +1,50 @@
+.calendar {
+    display: grid;
+    grid-template-columns: 86px 83px 83px 83px 83px 83px 83px;
+    margin-left: 32.5%;
+    margin-top: 5%;
+}
+.calendar_box {
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
+    width: 74px;
+    height: 64px;
+    font-size: 15px;
+    padding: 3px;
+    background-color: rgba(6, 144, 168, 0.801);
+    text-shadow: black 0px 1px;
+    color:white;
+}
+.calendar_boxNonDays:hover {
+    border-bottom-color: rgb(187, 187, 187);
+    border-right-color: rgb(187, 187, 187);
+    background-color: rgba(6, 144, 168, .601);
+    cursor:pointer;
+}
+.calendar_box2 {
+    border-left: black solid 3px;
+}
+.calendar_boxDays {
+    text-align: center;
+    height: 30px;
+    border-top: black solid 3px;
+}
+.monthName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 578px;
+    height: 60px;
+    border: black solid 3px;
+    border-bottom: none;
+    margin-left: 32.5%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.grey {
+    color: rgba(3, 109, 128, 0.425);
+    font-size: 13px;
+    margin-top: -3px;
+}
